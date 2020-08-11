@@ -84,7 +84,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Welcome to my App</h1>
+      <h1>Welcome To My Blogs App</h1>
       <form onSubmit={submit}>
         <div className="form-input">
           <input type="text" name="title" value={formInputs.title} placeholder="Title" onChange={handleChange}/>
