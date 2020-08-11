@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8080;
 
 const routes = require("./routes/api");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/mern", {
+mongoose.connect(process.env.MONGOLAB_URI || "mongodb://localhost:27017/mern", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
